@@ -27,9 +27,9 @@
 }
 
 #blog {
-    background-color:white;
+    background-color: white;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -51,29 +51,29 @@
     border-radius: 10px;
 }
 
-#blog > div > img{
+#blog > div > img {
     width: 270px;
     height: 140px;
     object-fit: cover;
 }
 
-#blog > div > h3{
+#blog > div > h3 {
     padding: 0px 5px 0px 23px;
 }
 
-#blog > div > p{
+#blog > div > p {
     padding: 0px 30px 10px 19px;
     text-decoration: none;
-    color: lightslategray;
+    color:lightlategray;
     font-size: 12px;
 }
 
-#blog > div[title="Featured Post"]{
+#blog > div[title="Featured Post"] {
     background-color: #1b1b1b;
     border: 2px solid #1b1b1b;
 }
 
-#blog > div > [title="Featured Post"] > h3 {
+#blog > div > [title="Featured Post"] > h3{
     color: #fcfcfc;
 }
 
@@ -81,10 +81,46 @@
     color: #fcfcfc;
 }
 
-#blog > div[title="Featured Post"] > a{
+#blog > div[title="Featured Post"] > a {
     color: #fcfcfc;
 }
 
 #blog > div > a:hover {
     color: darkorange;
+}
+
+#services {
+    background-color: rgb(230, 229, 229);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#services > h2 {
+    padding-top: 150px;
+    font-size: 30px;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+#services > ul {
+    white-space: nowrap;
+    padding-bottom: 90px;
+}
+
+#services > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding: 25px, 60px, 25px, 60px;
+    margin: 0px, 15px, 0px, 10px;
+    background-color: white;
+}
+
+#services > ul > li:first-child {
+    background-color: orangered;
+}
+
+#services > ul > li:hover {
+    box-shadow: 0 0 10px rgba(0,0,0, 0);
 }
